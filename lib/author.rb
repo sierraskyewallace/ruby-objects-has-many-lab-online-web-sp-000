@@ -6,7 +6,7 @@ class Author
     @name = name
   end
   def add_post(post)
-    #binding.pry
+    binding.pry
     post.author == self 
   end
   def posts 
