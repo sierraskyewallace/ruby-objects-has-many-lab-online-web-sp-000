@@ -11,10 +11,10 @@ class Author
   def posts 
     Post.all.select {|post| post.author == self}
   end
-  def add_post_by_title(title)
+  def add_post_by_title(name)
     #binding.pry
-    post = Post.new(title)
-    add_post(title)
+    post = Post.new(name)
+    add_post(name)
   end
 end
 
