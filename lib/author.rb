@@ -14,7 +14,7 @@ class Author
   def add_post_by_title(name)
     #binding.pry
     post = Post.new(name)
-    add_post(name)
+    add_post(post)
   end
 end
 
