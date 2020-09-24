@@ -6,6 +6,6 @@ class Author
     @posts = [] 
   end
   def posts 
-    Posts.all.select {|post| post.author == self}
+    Posts.all.select {|post| post.author = self}
   end
 end
