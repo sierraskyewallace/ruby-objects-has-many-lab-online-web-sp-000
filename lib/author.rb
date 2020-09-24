@@ -13,7 +13,6 @@ class Author
   end
   def add_post_by_title(title)
     #binding.pry
-    author.post = self
     post = Post.new(title)
     self.add_post(title)
   end
