@@ -6,4 +6,4 @@ class Author
     @name = name
   end
   
-  def 
+  def add_post()
